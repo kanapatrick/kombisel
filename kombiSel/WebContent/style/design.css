@@ -1,0 +1,39 @@
+form  .oblig{
+	color: #c00;
+}
+.oblig{
+	color: #c00;
+}
+
+span .eror{
+	text-align:center;
+}
+form .erreur{
+	color:#900;
+}
+form .succes{
+	color:#090;
+}
+
+
+#connexion{
+	display :none;
+}
+
+.succes{
+	color:#090;
+}
+.erreur{
+	color:#900;
+}
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green > .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+	

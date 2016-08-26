@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<module>test</module>
+		<module>controlpanel</module>
+		<module>gestion</module>
+		<default>controlpanel</default>
+	</modules>
+	<adminmodules>
+	    <adminmodule>controlpanel</adminmodule>
+	    <admindefault>controlpanel</admindefault>
+	</adminmodules>
+	<templates>
+	    <template>template</template>
+	    <defaulttemplate>template</defaulttemplate>
+	</templates>
+	<languages>
+	    <lang>
+	        <name>Français</name>
+	        <tag>fr_FR</tag>
+	    </lang>
+	    <lang>
+	        <name>English</name>
+	        <tag>en_GB</tag>
+	    </lang>
+	</languages>
+</config>

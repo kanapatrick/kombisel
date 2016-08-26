@@ -1,0 +1,182 @@
+
+/******************************************************
+
+	$INDEX1 - GENERAL
+	
+******************************************************/	
+
+
+
+body {
+    color: #F6F6F6;
+}
+
+
+header{
+	background:rgba(155,155,0,0.7);
+}
+
+::selection{
+	background: rgba(155,155,0,0.7);
+}
+::-moz-selection{
+	background: rgba(155,155,0,0.7);
+}
+::-webkit-selection{
+	background: rgba(155,155,0,0.7);
+}
+
+a{
+	color: #F0F0F0;
+}
+
+a:hover {
+	color: #E46C51;
+	border: 1px ;
+	background: #F0F0F0;
+	border-radius:3px;
+}
+
+h1, h2, h3{
+	color: #F6F6F6;
+	border-color: #F6F6F6;
+}
+
+hr{
+	border-color: #F6F6F6;
+}
+
+
+
+/******************************************************
+
+	$INDEX3 - MENU COMMON
+	
+******************************************************/	
+
+
+
+
+nav a{
+	color: #F0F0F0;
+}
+
+nav a.current, nav a:hover{
+	background: #F0F0F0;
+	color: #E46C51;
+}
+
+
+
+/******************************************************
+
+	$INDEX5 - HEADER STANDARD REDUIT
+	
+******************************************************/	
+
+
+
+ 
+.headerstandard.headerstandard-shrink h1 {
+	background: transparent url('images/icone.png') center left no-repeat;
+	text-indent: 60px;
+}
+
+
+
+
+/******************************************************
+
+	$INDEX6 - HEADER MOBILE
+	
+******************************************************/	
+
+
+
+
+
+header.headermobile button {
+	background: transparent url('/images/nav-icon.png') center center no-repeat;
+}
+
+		
+		
+		
+	
+/******************************************************
+
+	$INDEX7 - MAIN CONTENT
+	
+******************************************************/	
+
+
+.section1-visible{ background: #6C4846; }
+.section2-visible{ background: #6C4846; }
+.section3-visible{ background: #703C3C; }
+.section4-visible{ background: #704935; }
+.section5-visible{ background: #5E3631; }
+
+
+
+
+
+
+
+
+
+/******************************************************
+
+	$INDEX11 - MEDIA QUERIES : TABLETS
+	
+******************************************************/	
+
+
+
+
+/* TABLETS */
+@media screen and (max-width: 1020px ) {
+     
+  
+		
+	#main .home h1{
+		background: transparent url('images/logo-medium.png') center center no-repeat;
+	}
+	
+
+}
+
+
+
+
+
+/******************************************************
+
+	$INDEX12 - MEDIA QUERIES : SMARTPHONES
+	
+******************************************************/	
+
+
+
+
+
+
+/* SMARTPHONES */
+@media screen and (max-width: 767px ) {
+
+     
+  
+		
+	#main .home h1{
+		background: transparent url('images/logo-small.png') center center no-repeat;
+	}
+	
+	.scroll {
+		background-image: url('images/scroll-small.png');
+	} 
+	.scroll:hover {
+		background-image: url('images/scroll-small.png');
+	}
+
+
+}
+

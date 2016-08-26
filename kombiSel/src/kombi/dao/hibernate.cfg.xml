@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+    <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+    <property name="hibernate.connection.url">jdbc:postgresql://localhost:5433/KOMBISEL</property>
+    <property name="hibernate.connection.username">postgres</property>
+    <property name="hibernate.connection.password">postgres</property>
+    
+    <mapping class="beanskombi.Article"></mapping>
+    <mapping class="beanskombi.ArticleCommande"></mapping>
+    <mapping class="beanskombi.ArticleCommandePK"></mapping>
+    <mapping class="beanskombi.Categorie"></mapping>
+    <mapping class="beanskombi.Commande"></mapping>
+    <mapping class="beanskombi.CommandePromotion"></mapping>
+    <mapping class="beanskombi.ConcernePromotion"></mapping>
+    <mapping class="beanskombi.ConcernePromotionPK"></mapping>
+    <mapping class="beanskombi.CreerCategorie"></mapping>
+    <mapping class="beanskombi.CreerCategoriePK"></mapping>
+    <mapping class="beanskombi.DemandeArticle"></mapping>
+    <mapping class="beanskombi.Effectuer"></mapping>
+    <mapping class="beanskombi.EffectuerPK"></mapping>
+    <mapping class="beanskombi.Groupe"></mapping>
+    <mapping class="beanskombi.Historique"></mapping>
+    <mapping class="beanskombi.KombiUser"></mapping>    
+    <mapping class="beanskombi.MettreArticle"></mapping>
+    <mapping class="beanskombi.MettreArticlePK"></mapping>
+    <mapping class="beanskombi.MettreEnPromotion"></mapping>
+    <mapping class="beanskombi.ModifierArticle"></mapping>
+    <mapping class="beanskombi.ModifierArticlePK"></mapping>   
+    <mapping class="beanskombi.ParticiperPromotion"></mapping>
+    <mapping class="beanskombi.ParticiperPromotionPK"></mapping>
+    <mapping class="beanskombi.PasserCommande"></mapping>
+    <mapping class="beanskombi.PasserCommandePK"></mapping>
+    <mapping class="beanskombi.ProduitPromotion"></mapping>
+    <mapping class="beanskombi.Promotion"></mapping>    
+    <mapping class="beanskombi.Repondre"></mapping>    
+    <mapping class="beanskombi.RepondrePK"></mapping>
+    <mapping class="beanskombi.SousCategorie"></mapping>
+    <mapping class="beanskombi.SujetForum"></mapping>
+    <mapping class="beanskombi.SupprimerArticle"></mapping>    
+    <mapping class="beanskombi.SupprimerUser"></mapping>
+ </session-factory>
+</hibernate-configuration>
